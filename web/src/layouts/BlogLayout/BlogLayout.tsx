@@ -122,7 +122,7 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
                   <span className="sr-only">Syncline Software Solutions</span>
                   <img
                     alt="Your Company"
-                    className="h-15 w-auto"
+                    className="h-8 w-auto"
                     src="/synclinelogo.jpg"
                   />
                 </a>
