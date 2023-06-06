@@ -5,7 +5,6 @@ import clsx from 'clsx'
 type ContainerProps = {
   children?: ReactNode
   className?: string
-  // other props types here
 }
 
 const OuterContainer = forwardRef<HTMLDivElement, ContainerProps>(

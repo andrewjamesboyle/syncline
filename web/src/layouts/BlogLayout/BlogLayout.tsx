@@ -7,10 +7,11 @@ type BlogLayoutProps = {
 const BlogLayout = ({ children }: BlogLayoutProps) => {
   return (
     <>
-      <header className="bg-blue-500 text-white p-4">
-        <h1 className="text-xl font-bold">
+      {/* <>
+        <h1>
           <Link to={routes.home()}>Syncline Software Solutions, LLC.</Link>
         </h1>
+
         <nav>
           <ul>
             <li>
@@ -20,8 +21,8 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
               <Link to={routes.about()}>About</Link>
             </li>
           </ul>
-        </nav>
-      </header>
+        </nav> */}
+      {/* </> */}
       <main>{children}</main>
     </>
   )
