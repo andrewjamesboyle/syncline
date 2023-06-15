@@ -13,22 +13,23 @@ import { MetaTags } from '@redwoodjs/web'
 
 const features = [
   {
-    name: 'Strategic Planning',
-    description: 'Our automations are based on sound marketing strategies.',
+    name: 'Web Application Development',
+    description:
+      'Custom website and software applications, built from scratch.',
     href: '#',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'Comprehensive Analytics',
+    name: 'Actionable Analytics',
     description:
       'What gets measured gets managed. Drive results through precise measurements and insightful analytics.',
     href: '#',
     icon: LockClosedIcon,
   },
   {
-    name: 'Pre-trained Models',
+    name: 'Solutions Architecture',
     description:
-      'Our AI models are specifically trained to be experts in our clients industries.',
+      "Integrate existing software solutions with your business's current ecosystem.",
     href: '#',
     icon: ArrowPathIcon,
   },
@@ -46,7 +47,7 @@ const HomePage = () => {
             className="absolute inset-0 -z-10 h-full w-full object-cover"
           />
           <div
-            className="-z-9 absolute inset-0 bg-gradient-to-b from-black/20 to-transparent"
+            className="-z-9 absolute inset-0 bg-gradient-to-b from-black/5 to-transparent"
             aria-hidden="true"
           ></div>
           <div
@@ -79,10 +80,8 @@ const HomePage = () => {
               <p className="mt-6 text-lg leading-8 text-gray-300">
                 Inspired by the majestic mountain biking trails of Hood River,
                 Oregon, Syncline Software Solutions breathes the same spirit of
-                adventure, innovation, and resilience into the realm of
-                technology. Ready to embark on your transformative digital
-                journey? Schedule a consultation with us today. Together, let's
-                conquer new peaks.
+                adventure into the realm of technology. Schedule a consultation
+                with us today.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -205,10 +204,16 @@ const HomePage = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base font-semibold leading-7 text-indigo-400">
-              Work smarter, not harder.
+              Our Expertise
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              AI Powered Marketing
+              Digital Marketing
+            </p>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Web Development
+            </p>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Data Analytics
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Combining a decade of expertise in marketing with cutting edge

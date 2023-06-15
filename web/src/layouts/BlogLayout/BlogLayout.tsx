@@ -141,7 +141,7 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-md font-semibold leading-6 text-white"
+                  className="text-md text-gray font-semibold leading-6"
                 >
                   {item.name}
                 </a>
