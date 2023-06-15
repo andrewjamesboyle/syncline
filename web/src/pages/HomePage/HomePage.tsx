@@ -11,8 +11,6 @@ import {
 
 import { MetaTags } from '@redwoodjs/web'
 
-
-
 const features = [
   {
     name: 'Strategic Planning',
@@ -39,11 +37,84 @@ const features = [
 const HomePage = () => {
   return (
     <>
-      <MetaTags title="Home" description="Home page" />
-
+      <>
+        <MetaTags title="Home" description="Home page" />
+        <div className="relative isolate overflow-hidden pt-14">
+          <img
+            src="/tetons.jpg"
+            alt=""
+            className="absolute inset-0 -z-10 h-full w-full object-cover"
+          />
+          <div
+            className="-z-9 absolute inset-0 bg-gradient-to-b from-black/25 to-transparent"
+            aria-hidden="true"
+          ></div>
+          <div
+            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+            aria-hidden="true"
+          >
+            <div
+              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+              style={{
+                clipPath:
+                  'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+              }}
+            />
+          </div>
+          <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
+            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
+                We are engineers, marketers, and problem solvers.{' '}
+                {/* <a href="#" className="font-semibold text-white">
+                  <span className="absolute inset-0" aria-hidden="true" />
+                  Learn More <span aria-hidden="true">&rarr;</span>
+                </a> */}
+              </div>
+            </div>
+            <div className="text-center">
+              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+                Syncline Software Solutions
+              </h1>
+              <p className="mt-6 text-lg leading-8 text-gray-300">
+                Named after the iconic mountain biking trail network near Hood
+                River, Oregon, our mission is to empower small businesses to
+                scale new heights with elegant, effective, and powerful
+                technological solutions. Take the next step in your digital
+                journey - schedule a consultation today.
+              </p>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <a
+                  href="#"
+                  className="rounded-md bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                >
+                  Get started
+                </a>
+                <a
+                  href="#"
+                  className="text-sm font-semibold leading-6 text-white"
+                >
+                  Learn more <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+            aria-hidden="true"
+          >
+            <div
+              className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+              style={{
+                clipPath:
+                  'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+              }}
+            />
+          </div>
+        </div>
+      </>
       <div className="relative">
         <div className="mx-auto max-w-7xl">
-          <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
+          <div className="relative z-10 pt-7 lg:w-full lg:max-w-2xl">
             <svg
               className="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block"
               viewBox="0 0 100 100"
@@ -53,11 +124,12 @@ const HomePage = () => {
               <polygon points="0,0 90,0 50,100 0,100" />
             </svg>
 
-            <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
+            <div className="relative px-6 py-20 sm:py-10 lg:px-8 lg:py-40 lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    Over 15 years of experience in the outdoor industry.{' '}
+                    We are marketers, engineers, solution architects, and
+                    problem solvers.{' '}
                     <a
                       href="#"
                       className="whitespace-nowrap font-semibold text-indigo-600"
@@ -71,13 +143,13 @@ const HomePage = () => {
                   Syncline Software Solutions
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Helping small businesses leverage generative AI and our
-                  deep-rooted marketing expertise to streamline your marketing
-                  efforts and social media management, freeing you to spend more
-                  time exploring the great outdoors and less time behind a
-                  screen. We're here to fuel your business growth, giving you
-                  the tools to thrive in a digital landscape while staying true
-                  to your outdoor roots.
+                  Named after the iconic mountain biking trail network near Hood
+                  River, Oregon, our mission is simple: empower businesses to
+                  scale new heights with elegant, effective, and powerful
+                  technological solutions. Our custom solutions are tailored to
+                  your specific pain points so you can focus on what matters
+                  most: running your business. Take the next step in your
+                  digital journey - schedule a consultation today.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
@@ -271,7 +343,6 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-
       <div className="relative isolate bg-white">
         <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
           <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
@@ -479,7 +550,6 @@ const HomePage = () => {
           </form>
         </div>
       </div>
-
     </>
   )
 }
