@@ -46,7 +46,7 @@ const HomePage = () => {
             className="absolute inset-0 -z-10 h-full w-full object-cover"
           />
           <div
-            className="-z-9 absolute inset-0 bg-gradient-to-b from-black/25 to-transparent"
+            className="-z-9 absolute inset-0 bg-gradient-to-b from-black/20 to-transparent"
             aria-hidden="true"
           ></div>
           <div
@@ -61,6 +61,7 @@ const HomePage = () => {
               }}
             />
           </div>
+
           <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
@@ -72,20 +73,21 @@ const HomePage = () => {
               </div>
             </div>
             <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+              <h1 className="-z-1 text-4xl font-bold tracking-tight text-white sm:text-6xl">
                 Syncline Software Solutions
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Named after the iconic mountain biking trail network near Hood
-                River, Oregon, our mission is to empower small businesses to
-                scale new heights with elegant, effective, and powerful
-                technological solutions. Take the next step in your digital
-                journey - schedule a consultation today.
+                Inspired by the majestic mountain biking trails of Hood River,
+                Oregon, Syncline Software Solutions breathes the same spirit of
+                adventure, innovation, and resilience into the realm of
+                technology. Ready to embark on your transformative digital
+                journey? Schedule a consultation with us today. Together, let's
+                conquer new peaks.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"
-                  className="rounded-md bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  className="rounded-md bg-indigo-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
                   Get started
                 </a>
@@ -124,12 +126,11 @@ const HomePage = () => {
               <polygon points="0,0 90,0 50,100 0,100" />
             </svg>
 
-            <div className="relative px-6 py-20 sm:py-10 lg:px-8 lg:py-40 lg:pr-0">
+            <div className="lg:py-25 relative px-6 py-10 sm:py-10 lg:px-8 lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-                <div className="hidden sm:mb-10 sm:flex">
+                {/* <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    We are marketers, engineers, solution architects, and
-                    problem solvers.{' '}
+                    We believe in working smarter, not harder.{' '}
                     <a
                       href="#"
                       className="whitespace-nowrap font-semibold text-indigo-600"
@@ -138,20 +139,43 @@ const HomePage = () => {
                       Read more <span aria-hidden="true">&rarr;</span>
                     </a>
                   </div>
-                </div>
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                  Syncline Software Solutions
+                </div> */}
+                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+                  What We Believe
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Named after the iconic mountain biking trail network near Hood
-                  River, Oregon, our mission is simple: empower businesses to
-                  scale new heights with elegant, effective, and powerful
-                  technological solutions. Our custom solutions are tailored to
-                  your specific pain points so you can focus on what matters
-                  most: running your business. Take the next step in your
-                  digital journey - schedule a consultation today.
+                  At Syncline Software Solutions, we're more than just software
+                  engineers, web developers, digital marketers, and data
+                  analysts. We're avid mountain bikers and relentless problem
+                  solvers, driven by a simple but compelling belief: technology
+                  should be a tool that frees, not confines.
                 </p>
-                <div className="mt-10 flex items-center gap-x-6">
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  Our mission? To empower small businesses to scale
+                  unprecedented digital heights with bespoke, powerful, and
+                  seamless technological solutions. Just as each trail presents
+                  unique challenges and thrills, we recognize that every
+                  business has its unique needs and aspirations. That's why our
+                  solutions are not one-size-fits-all but are meticulously
+                  tailored to address your specific hurdles and help you seize
+                  your unique opportunities. We leverage advanced technological
+                  solutions, such as generative AI, to streamline operations,
+                  magnify impact, and optimize time and resources. Why? So you
+                  can focus on what truly matters, serving your customers,
+                  growing your business, or even catching that perfect sunrise
+                  ride.
+                </p>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  Grounded in data-driven insights and empathetic communication,
+                  we hone in on your unique challenges, crafting custom
+                  solutions that directly address your pain points. And once
+                  we've implemented these solutions, we won't just say goodbye.
+                  We'll see you out there on the trails, celebrating your
+                  success amidst nature's grandeur. Because at Syncline, we're
+                  not just building software solutions, we're helping build
+                  dreams. And we can't wait to be part of yours.
+                </p>
+                {/* <div className="mt-10 flex items-center gap-x-6">
                   <a
                     href="#"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -164,7 +188,7 @@ const HomePage = () => {
                   >
                     Learn more <span aria-hidden="true">→</span>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -172,7 +196,7 @@ const HomePage = () => {
         <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
             className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-            src="/biking.jpg"
+            src="/sunburst.jpg"
             alt=""
           />
         </div>
