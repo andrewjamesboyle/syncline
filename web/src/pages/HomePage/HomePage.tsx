@@ -217,7 +217,7 @@ const HomePage = () => {
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Combining a decade of expertise in marketing with cutting edge
-              technological solutions
+              technological solutions, including generative AI.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
