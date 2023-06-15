@@ -15,12 +15,12 @@ const features = [
   {
     name: 'Web Application Development',
     description:
-      'Custom website and software applications, built from scratch.',
+      'Custom website and full-stack software applications, built from scratch or on top of powerful platforms like WordPress and Shopify.',
     href: '#',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'Actionable Analytics',
+    name: 'Actionable Insights',
     description:
       'What gets measured gets managed. Drive results through precise measurements and insightful analytics.',
     href: '#',
@@ -29,7 +29,28 @@ const features = [
   {
     name: 'Solutions Architecture',
     description:
-      "Integrate existing software solutions with your business's current ecosystem.",
+      "Integrate existing software solutions with your business's current ecosystem to streamline and automate tedious processes.",
+    href: '#',
+    icon: ArrowPathIcon,
+  },
+  {
+    name: 'Digital Marketing',
+    description:
+      'Leverage generative AI and other marketing automation tools to streamline your content creation and keep your audience engaged.',
+    href: '#',
+    icon: CloudArrowUpIcon,
+  },
+  {
+    name: 'SEO',
+    description:
+      "Your site may look great, but if it doesn't exist on Google, it doesn't exist.",
+    href: '#',
+    icon: LockClosedIcon,
+  },
+  {
+    name: 'Need something else?',
+    description:
+      'We thrive on finding original solutions to novel and challenging problems. Contact us today to discuss your needs.',
     href: '#',
     icon: ArrowPathIcon,
   },
@@ -66,7 +87,7 @@ const HomePage = () => {
           <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-                We are engineers, marketers, and problem solvers.{' '}
+                We are builders, creators, and problem solvers.{' '}
                 {/* <a href="#" className="font-semibold text-white">
                   <span className="absolute inset-0" aria-hidden="true" />
                   Learn More <span aria-hidden="true">&rarr;</span>
@@ -86,7 +107,7 @@ const HomePage = () => {
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"
-                  className="rounded-md bg-indigo-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
                   Get started
                 </a>
@@ -203,30 +224,30 @@ const HomePage = () => {
       <div className="bg-gray-900 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-400">
+            <h2 className="text-base font-semibold leading-7 text-blue-400">
               Our Expertise
             </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Digital Marketing
-            </p>
             <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Web Development
             </p>
             <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Digital Marketing
+            </p>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Data Analytics
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            {/* <p className="mt-6 text-lg leading-8 text-gray-300">
               Combining a decade of expertise in marketing with cutting edge
-              technological solutions, including generative AI.
-            </p>
+              generative AI based solutions.
+            </p> */}
           </div>
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+          <div className="mx-auto mt-12 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
               {features.map((feature) => (
                 <div key={feature.name} className="flex flex-col">
                   <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
                     <feature.icon
-                      className="h-5 w-5 flex-none text-indigo-400"
+                      className="h-5 w-5 flex-none text-blue-400"
                       aria-hidden="true"
                     />
                     {feature.name}
@@ -236,7 +257,7 @@ const HomePage = () => {
                     <p className="mt-6">
                       <a
                         href={feature.href}
-                        className="text-sm font-semibold leading-6 text-indigo-400"
+                        className="text-sm font-semibold leading-6 text-blue-400"
                       >
                         Learn more <span aria-hidden="true">→</span>
                       </a>
@@ -314,10 +335,10 @@ const HomePage = () => {
                   />
                   <div className="text-base">
                     <div className="font-semibold text-gray-900">
-                      Bekah Rottenberg
+                      Tre Hendricks
                     </div>
                     <div className="mt-1 text-gray-500">
-                      Owner - Brave Endeavors
+                      Owner - Pinnacle Mt. Hood
                     </div>
                   </div>
                 </figcaption>
@@ -326,7 +347,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <div className="bg-white pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
+      {/* <div className="bg-white pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
         <div className="bg-gray-900 pb-20 sm:pb-24 xl:pb-0">
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
             <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
@@ -371,7 +392,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="relative isolate bg-white">
         <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
           <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
@@ -418,9 +439,14 @@ const HomePage = () => {
                 Get in touch
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Proin volutpat consequat porttitor cras nullam gravida at. Orci
-                molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
-                Arcu sed malesuada et magna.
+                Ready to navigate your digital journey with ease? Let's talk.
+                Whether you have a project in mind, need advice on your digital
+                strategy, or simply want to learn more about how we can empower
+                your business, we're here to help. Send us a message, give us a
+                call, or drop us an email – we can't wait to hear from you.
+                Together, let's scale new heights and create solutions that make
+                a difference. Your next big adventure starts here — we'll see
+                you at the trailhead.
               </p>
               <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
                 <div className="flex gap-x-4">
@@ -431,11 +457,7 @@ const HomePage = () => {
                       aria-hidden="true"
                     />
                   </dt>
-                  <dd>
-                    545 Mavis Island
-                    <br />
-                    Chicago, IL 99191
-                  </dd>
+                  <dd>Hood River, OR 97031</dd>
                 </div>
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
@@ -467,7 +489,7 @@ const HomePage = () => {
                       className="hover:text-gray-900"
                       href="mailto:hello@example.com"
                     >
-                      hello@example.com
+                      info@synclinesoftware.com
                     </a>
                   </dd>
                 </div>

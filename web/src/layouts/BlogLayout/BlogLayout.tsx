@@ -5,10 +5,10 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation1 = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
+  { name: 'About', href: '#' },
+  { name: 'Services', href: '#' },
   { name: 'Testimonials', href: '#' },
-  { name: 'Company', href: '#' },
+  // { name: 'Company', href: '#' },
   { name: 'Contact', href: '#' },
 ]
 
@@ -16,7 +16,7 @@ const navigation2 = {
   solutions: [
     { name: 'Marketing', href: '#' },
     { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
+    { name: 'E-Commerce', href: '#' },
     { name: 'Insights', href: '#' },
   ],
   support: [
