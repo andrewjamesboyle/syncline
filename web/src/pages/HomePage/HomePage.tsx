@@ -210,11 +210,7 @@ const HomePage = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
-              <img
-                className="h-12 self-start"
-                src="https://tailwindui.com/img/logos/tuple-logo-gray-900.svg"
-                alt=""
-              />
+              <img className="h-12 self-start" src="/mtvc.jpg" alt="" />
               <figure className="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote className="text-lg leading-8 text-gray-900">
                   <p>
@@ -231,7 +227,7 @@ const HomePage = () => {
                 <figcaption className="mt-10 flex items-center gap-x-6">
                   <img
                     className="h-14 w-14 rounded-full bg-gray-50"
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="/rafe.jpg"
                     alt=""
                   />
                   <div className="text-base">
@@ -246,11 +242,7 @@ const HomePage = () => {
               </figure>
             </div>
             <div className="flex flex-col border-t border-gray-900/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
-              <img
-                className="h-12 self-start"
-                src="https://tailwindui.com/img/logos/reform-logo-gray-900.svg"
-                alt=""
-              />
+              <img className="h-12 self-start" src="/pinnacle.jpg" alt="" />
               <figure className="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote className="text-lg leading-8 text-gray-900">
                   <p>
@@ -267,7 +259,7 @@ const HomePage = () => {
                 <figcaption className="mt-10 flex items-center gap-x-6">
                   <img
                     className="h-14 w-14 rounded-full bg-gray-50"
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="/tre.jpg"
                     alt=""
                   />
                   <div className="text-base">
@@ -351,7 +343,7 @@ const HomePage = () => {
                   </dt>
                   <dd>Hood River, OR 97031</dd>
                 </div>
-                <div className="flex gap-x-4">
+                {/* <div className="flex gap-x-4">
                   <dt className="flex-none">
                     <span className="sr-only">Telephone</span>
                     <PhoneIcon
@@ -367,7 +359,7 @@ const HomePage = () => {
                       +1 (555) 234-5678
                     </a>
                   </dd>
-                </div>
+                </div> */}
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
                     <span className="sr-only">Email</span>
@@ -379,9 +371,9 @@ const HomePage = () => {
                   <dd>
                     <a
                       className="hover:text-gray-900"
-                      href="mailto:hello@example.com"
+                      href="mailto:andrewboylecodes@gmail.com"
                     >
-                      info@synclinesoftware.com
+                      andrewboylecodes@gmail.com
                     </a>
                   </dd>
                 </div>
