@@ -15,7 +15,7 @@ const Routes = () => {
   return (
     <Router>
       <Set wrap={BlogLayout}>
-        <Route path="/" page={HomePage} name="home" />
+        <Route path="/" page={HomePage} name="Syncline Software Solutions" />
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>

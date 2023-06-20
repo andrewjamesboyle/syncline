@@ -1,5 +1,3 @@
-
-
 import { MetaTags } from '@redwoodjs/web'
 
 import About from 'src/components/About/About'
