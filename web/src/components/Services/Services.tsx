@@ -50,6 +50,10 @@ const features = [
 ]
 
 const Services = () => {
+  const handleNavigation = () => {
+    document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <section id="Services">
       <div className="bg-gray-900 py-24 sm:py-32">
@@ -82,12 +86,14 @@ const Services = () => {
                   <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-300">
                     <p className="flex-auto">{feature.description}</p>
                     <p className="mt-6">
-                      <a
-                        href={feature.href}
+                      <button
+                        onClick={() => {
+                          handleNavigation()
+                        }}
                         className="text-sm font-semibold leading-6 text-blue-400"
                       >
-                        Learn more <span aria-hidden="true">→</span>
-                      </a>
+                        Get Started <span aria-hidden="true"></span>
+                      </button>
                     </p>
                   </dd>
                 </div>
