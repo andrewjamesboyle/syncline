@@ -15,7 +15,7 @@ const App = () => {
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Helmet>
       <FatalErrorBoundary page={FatalErrorPage}>
-        <RedwoodProvider titleTemplate="%PageTitle | %AppTitle">
+        <RedwoodProvider titleTemplate="Syncline Software Solutions">
           <RedwoodApolloProvider>
             <Routes />
           </RedwoodApolloProvider>
