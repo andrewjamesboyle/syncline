@@ -17,9 +17,23 @@ interface FormValues {
 const Contact = () => {
   const formMethods = useForm({ mode: 'onBlur' })
 
-  const onSubmit: SubmitHandler<FormValues> = (data) => {
-    console.log(data)
+  const onSubmit: SubmitHandler<FormValues> = async (userData) => {
+    try {
+      const response = await fetch('http://localhost:8910/api/email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(userData),
+      })
+
+      const data = await response.json()
+      console.log(data)
+    } catch (error) {
+      console.error('Error', error)
+    }
   }
+
   return (
     <section id="Contact">
       <div className="relative isolate bg-white">
@@ -216,7 +230,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="mt-8 flex justify-end">
-                <Submit className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                <Submit className="rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                   Send message
                 </Submit>
               </div>
