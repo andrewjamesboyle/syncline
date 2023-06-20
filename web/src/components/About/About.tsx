@@ -22,35 +22,31 @@ const About = () => {
                   <p className="mt-6 text-lg leading-8 text-gray-600">
                     At Syncline Software Solutions, we're more than just
                     software engineers, web developers, digital marketers, and
-                    data analysts. We're avid mountain bikers and relentless
+                    data analysts. We're explorers, creators, and relentless
                     problem solvers, driven by a simple but compelling belief:
                     technology should be a tool that frees, not confines.
                   </p>
                   <p className="mt-6 text-lg leading-8 text-gray-600">
-                    Our mission? To empower small businesses to scale
-                    unprecedented digital heights with bespoke, powerful, and
-                    seamless technological solutions. Just as each trail
-                    presents unique challenges and thrills, we recognize that
-                    every business has its unique needs and aspirations. That's
-                    why our solutions are not one-size-fits-all but are
-                    meticulously tailored to address your specific hurdles and
-                    help you seize your unique opportunities. We leverage
-                    advanced technological solutions, such as generative AI, to
+                    Our mission? To empower businesses to scale unprecedented
+                    digital heights with bespoke, powerful, and seamless
+                    technological solutions. We recognize that every business
+                    has its unique needs and aspirations. That's why our
+                    solutions are not one-size-fits-all but are meticulously
+                    tailored to address your specific hurdles and help you seize
+                    your unique opportunities. We leverage advanced
+                    technological solutions, such as generative AI, to
                     streamline operations, magnify impact, and optimize time and
                     resources. Why? So you can focus on what truly matters,
-                    serving your customers, growing your business, or even
-                    catching that perfect sunrise ride.
+                    serving your customers and growing your business, with the
+                    peace of mind of having robust solutions in place.
                   </p>
                   <p className="mt-6 text-lg leading-8 text-gray-600">
                     Grounded in data-driven insights and empathetic
                     communication, we hone in on your unique challenges,
                     crafting custom solutions that directly address your pain
-                    points. And once we've implemented these solutions, we won't
-                    just say goodbye. We'll see you out there on the trails,
-                    celebrating your success amidst nature's grandeur. Because
-                    at Syncline, we're not just building software solutions,
-                    we're helping build dreams. And we can't wait to be part of
-                    yours.
+                    points. At Syncline, we're not just building software
+                    solutions, we're helping build dreams. And we can't wait to
+                    be part of yours.
                   </p>
                 </div>
               </div>
@@ -59,7 +55,7 @@ const About = () => {
           <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
               className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-              src="/sunburst.jpg"
+              src="/rocks.jpg"
               alt=""
             />
           </div>

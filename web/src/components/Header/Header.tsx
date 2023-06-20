@@ -4,10 +4,10 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation1 = [
-  { name: 'About', href: '' },
-  { name: 'Services', href: '#' },
-  { name: 'Testimonials', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'About' },
+  { name: 'Services' },
+  { name: 'Testimonials' },
+  { name: 'Contact' },
 ]
 
 const Header = () => {
@@ -15,6 +15,7 @@ const Header = () => {
 
   const handleNavigation = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
+    setMobileMenuOpen(false)
   }
 
   return (
@@ -67,7 +68,11 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src="/synclinelogo.jpg" alt="" />
+              <img
+                className="h-8 w-auto rounded-3xl"
+                src="/synclinelogo.jpg"
+                alt=""
+              />
             </a>
             <button
               type="button"
@@ -82,22 +87,14 @@ const Header = () => {
             <div className="-my-6 divide-y divide-gray-500/25">
               <div className="space-y-2 py-6">
                 {navigation1.map((item) => (
-                  <a
+                  <button
                     key={item.name}
-                    href={item.href}
+                    onClick={() => handleNavigation(`${item.name}`)}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
                   >
                     {item.name}
-                  </a>
+                  </button>
                 ))}
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                >
-                  Log in
-                </a>
               </div>
             </div>
           </div>

@@ -16,4 +16,8 @@ export const handler = createGraphQLHandler({
     // Disconnect from your database with an unhandled exception.
     db.$disconnect()
   },
+  cors: {
+    origin: 'http://localhost:8910',
+    credentials: true,
+  },
 })
