@@ -13,8 +13,8 @@ const Testimonials = () => {
                   requirements and delivering tailored solutions has resulted in
                   a significantly streamlined marketing process. Our social
                   media management has never been smoother, allowing our team to
-                  focus more on what we love – exploring the outdoors and
-                  helping our customers do the same.”
+                  focus more on what we love – riding our bikes and helping our
+                  customers do the same.”
                 </p>
               </blockquote>
               <figcaption className="mt-10 flex items-center gap-x-6">
@@ -40,10 +40,8 @@ const Testimonials = () => {
                   “Syncline's approach to our specific needs has been genuinely
                   customized. Their team's dedication to comprehending our
                   unique demands and delivering fitting solutions has led to a
-                  radical transformation of our marketing process. Managing our
-                  social media has never been more efficient, freeing up our
-                  team to concentrate on our passion—embracing the outdoors and
-                  facilitating our customers to do the same.”
+                  radical transformation of our business's online presence and
+                  our customers' success."
                 </p>
               </blockquote>
               <figcaption className="mt-10 flex items-center gap-x-6">
