@@ -4,10 +4,10 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation1 = [
-  { name: 'About', href: '' },
-  { name: 'Services', href: '#' },
-  { name: 'Testimonials', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'About' },
+  { name: 'Services' },
+  { name: 'Testimonials' },
+  { name: 'Contact' },
 ]
 
 const Header = () => {
