@@ -19,7 +19,8 @@ const Contact = () => {
 
   const onSubmit: SubmitHandler<FormValues> = async (userData) => {
     try {
-      const response = await fetch('http://localhost:8910/api/email', {
+      console.log(userData)
+      const response = await fetch('http://localhost:8911/email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
