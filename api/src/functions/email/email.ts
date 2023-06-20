@@ -29,14 +29,16 @@ export const handler = async (event: APIGatewayEvent, _context: Context) => {
     from: 'info@synclinesoftwaresolutions.com',
     subject: 'Contact Form Submission',
     text: `
-      Name: ${userData.name}
+      Name: ${userData.firstName}
       Email: ${userData.email}
       Message: ${userData.message}
+      Phone: ${userData.phoneNumber}
     `,
     html: `
-      <strong>Name:</strong> ${userData.name}<br>
+      <strong>Name:</strong> ${userData.firstName} ${userData.lastName}<br>
       <strong>Email:</strong> ${userData.email}<br>
-      <strong>Message:</strong><br>${userData.message}
+      <strong>Message:</strong><br>${userData.message}<br>
+      <strong>Phone:</strong><br>${userData.phoneNumber}
     `,
   }
 
