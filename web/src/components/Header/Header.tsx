@@ -15,7 +15,7 @@ const Header = () => {
 
   const handleNavigation = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
-    setMobileMenuOpen(false)
+    setTimeout(() => setMobileMenuOpen(false), 1000)
   }
 
   return (
