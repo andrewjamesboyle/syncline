@@ -27,18 +27,16 @@ const About = () => {
                     technology should be a tool that frees, not confines.
                   </p>
                   <p className="mt-6 text-lg leading-8 text-gray-600">
-                    Our mission? To empower businesses to scale unprecedented
-                    digital heights with bespoke, powerful, and seamless
-                    technological solutions. We recognize that every business
-                    has its unique needs and aspirations. That's why our
-                    solutions are not one-size-fits-all but are meticulously
-                    tailored to address your specific hurdles and help you seize
-                    your unique opportunities. We leverage advanced
-                    technological solutions, such as generative AI, to
-                    streamline operations, magnify impact, and optimize time and
-                    resources. Why? So you can focus on what truly matters,
-                    serving your customers and growing your business, with the
-                    peace of mind of having robust solutions in place.
+                    We recognize that every business has its unique needs and
+                    aspirations. That's why our solutions are not
+                    one-size-fits-all but are meticulously tailored to address
+                    your specific hurdles and help you seize your unique
+                    opportunities. We leverage advanced technological solutions,
+                    such as generative AI, to streamline operations, magnify
+                    impact, and optimize time and resources. Why? So you can
+                    focus on what truly matters, serving your customers and
+                    growing your business, with the peace of mind of having
+                    robust solutions in place.
                   </p>
                   <p className="mt-6 text-lg leading-8 text-gray-600">
                     Grounded in data-driven insights and empathetic
