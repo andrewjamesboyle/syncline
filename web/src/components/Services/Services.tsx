@@ -92,7 +92,7 @@ const Services = () => {
                         }}
                         className="text-sm font-semibold leading-6 text-blue-400"
                       >
-                        Contact <span aria-hidden="true"></span>
+                        Get More Info <span aria-hidden="true"></span>
                       </button>
                     </p>
                   </dd>
