@@ -12,8 +12,8 @@ const HomePage = () => {
       <MetaTags title="Home" description="Home page" />
 
       <Hero />
-      <About />
       <Services />
+      <About />
       <Testimonials />
       <Contact />
     </>
